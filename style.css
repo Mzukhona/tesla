@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&family=Montserrat:ital,wght@0,500;1,500&family=Noto+Sans+Zanabazar+Square&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+ }
+
+ a {
+    text-decoration: none;
+    color: black;
+  }
+
+ h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+ }
+
+p{ 
+    font-family: 'Noto Sans Zanabazar Square', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 6px 24px 14px 24px;
+}
+
+.banner-wrap {
+    background-image: url(./assets/Homepage-Model-3-Desktop-LHD.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+    height: 100vh;
+    width: 100vw;   
+}
+
+.ii {
+    height: 24px;
+    width: 120px;
+}
+
+nav {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 36px;
+     height: 56px;
+    
+}
+
+.nav-item{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color:#d8d9da;
+}
+main {
+    text-align: center;
+    height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title{
+    margin-top: calc(137px - 56px);
+}
+
+.action-area{
+    margin-bottom: 80px ;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0px 16px;
+    
+      
+}
+
+#btn-mig {
+    background: #171A20CC;
+  color: white;
+  font-size: 14px;
+  border: 0px;
+margin: 16px;
+padding: 4px 24px;
+}
+#btn-ig {
+    background: #F4F4F4A6;
+    color: black;
+    font-size: 14px;
+    border: 0px;
+  margin:  16px;
+  padding: 4px 24px;
+  }
+  
+ 
